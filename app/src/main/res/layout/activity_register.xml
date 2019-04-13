@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+   >
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP PLATFORM"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:background="#00cc66"
+        android:layout_marginBottom="28dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:layout_marginRight="20dp"
+        android:hint="First Name "/>
+    <EditText
+
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:hint="Lastname"
+        android:inputType="text"/>
+    </LinearLayout>
+<EditText
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="username"
+    android:inputType="text"/>
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:hint="Password"
+
+        android:inputType="textPassword"/>
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+
+            android:hint="Confirm Password"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/holo_green_light"/>
+</LinearLayout>
